@@ -1,7 +1,7 @@
 easysocketbenchmark
 ===================
 
-高性能socket性能测试工具/框架，socket性能测试工具终结者。
+高性能socket性能测试工具/框架，做socket性能测试工具的终结者。
 
 ### 简介:
 * 基于boost::asio开发，使用single epoll + thread pool模型，超高性能。    
