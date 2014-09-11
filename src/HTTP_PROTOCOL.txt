@@ -1,0 +1,24 @@
+【HTTP 报文协议】
+1、GET报文
+GET /gettest/?para1=Hello&para2=World HTTP/1.0
+Host: 10.81.15.47
+Accept: */*
+Connection: close\r\n\r\n
+
+2、POST报文
+POST /lbs/da/openservice HTTP/1.0
+Host: 10.81.15.47
+Accept: */*
+Content-Type: application/json; charset=utf-8
+Content-Length: request_str.length()
+Referer: http://10.81.15.47:18080/lbs/da/openservice
+Connection: close\r\n\r\n
+request_str
+
+3、RESPONSE报文
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Connection: Close
+Content-Length: 421
+
+{"response":{"items":[{"id":"11710154692952313709","value":[0.300000],"str_value":[]}],"args":[]},"service":"ItemService","method":"GetItemsByItem"}
