@@ -1,4 +1,4 @@
-easysocketbenchmark
+redisbasedsocketbenchmark
 ===================
 
 高性能socket性能测试工具/框架，做socket性能测试工具的终结者。满足一般性能测试、延迟测试、最大连接数测试、吞吐量测试、压力测试、长时间稳定性测试、内存泄漏测试等场景。
